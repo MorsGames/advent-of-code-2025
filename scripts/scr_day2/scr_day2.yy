@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_day2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_day2",
+  "parent":{
+    "name":"Days",
+    "path":"folders/Days.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

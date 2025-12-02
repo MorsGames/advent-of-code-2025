@@ -117,7 +117,7 @@ switch (state)
         // Prompts
         draw_set_halign(fa_center);
         draw_set_color(UI_TEXT_COLOR);
-        draw_text_transformed(_cx, _h - UI_FOOTER_TEXT_Y, "<enter>: return to menu", UI_TEXT_SIZE, UI_TEXT_SIZE, 0);
+        draw_text_transformed(_cx, _h - UI_FOOTER_TEXT_Y, "<1>: copy part 1 | <2>: copy part 2 | <enter>: return to menu", UI_TEXT_SIZE, UI_TEXT_SIZE, 0);
         break;
 }
 

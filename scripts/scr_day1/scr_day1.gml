@@ -30,11 +30,11 @@ global.day01 =
 
             while (_dial_position >= 100)
             {
-                _dial_position = _dial_position - 100;
+                _dial_position -= 100;
             }
             while (_dial_position < 0)
             {
-                _dial_position = _dial_position + 100;
+                _dial_position += 100;
             }
 
             if (_dial_position == 0)
