@@ -6,15 +6,17 @@ global.day01 =
     {
         var _lines = string_split(_raw_text, "\n");
         var _instructions = [];
+
         for (var i = 0; i < array_length(_lines); i++)
         {
-            var _line = _lines[i];
+            var _line = string_trim(_lines[i]);
             if (_line == "")
                 continue;
             var _direction = (string_char_at(_line, 1) == "L") ? -1 : 1;
             var _steps = real(string_digits(_line)) * _direction;
             array_push(_instructions, _steps);
         }
+
         return _instructions;
     },
 
