@@ -22,6 +22,8 @@ global.registry = [];
 array_push(global.registry, global.day00);
 array_push(global.registry, global.day01);
 array_push(global.registry, global.day02);
+array_push(global.registry, global.day03);
+array_push(global.registry, global.day04);
 
 menu_selection = array_length(global.registry)-1;
 running_frame_counter = 0;
