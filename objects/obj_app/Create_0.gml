@@ -19,11 +19,19 @@ results = new Results();
 
 global.registry = [];
 
-array_push(global.registry, global.day00);
+//array_push(global.registry, global.day00);
 array_push(global.registry, global.day01);
 array_push(global.registry, global.day02);
 array_push(global.registry, global.day03);
 array_push(global.registry, global.day04);
+array_push(global.registry, global.day05);
+//array_push(global.registry, global.day06);
+//array_push(global.registry, global.day07);
+//array_push(global.registry, global.day08);
+//array_push(global.registry, global.day09);
+//array_push(global.registry, global.day10);
+//array_push(global.registry, global.day11);
+//array_push(global.registry, global.day12);
 
 menu_selection = array_length(global.registry)-1;
 running_frame_counter = 0;
@@ -31,7 +39,7 @@ running_frame_counter = 0;
 for (var i = 0; i < array_length(global.registry); i++)
 {
     var _day = global.registry[i];
-    var _filename = "input_day" + string_replace(string_format(i, 2, 0), " ", "0") + ".txt";
+    var _filename = "input_day" + string_replace(string_format(i+1, 2, 0), " ", "0") + ".txt";
 
     if (file_exists(_filename))
     {

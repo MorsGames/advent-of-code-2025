@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_day1",
+  "%Name":"scr_day12",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_day1",
+  "name":"scr_day12",
   "parent":{
     "name":"Days",
     "path":"folders/Days.yy",
