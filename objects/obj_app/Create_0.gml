@@ -25,7 +25,7 @@ array_push(global.registry, global.day02);
 array_push(global.registry, global.day03);
 array_push(global.registry, global.day04);
 array_push(global.registry, global.day05);
-//array_push(global.registry, global.day06);
+array_push(global.registry, global.day06);
 //array_push(global.registry, global.day07);
 //array_push(global.registry, global.day08);
 //array_push(global.registry, global.day09);

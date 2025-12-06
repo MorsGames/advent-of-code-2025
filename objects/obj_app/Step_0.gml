@@ -49,13 +49,11 @@ switch (state)
             }
         
             results.day_name = _solution.name;
-        
-            var _parsed = _solution.parse_input(_solution.input);
-        
-            var _answer1 = _solution.solve_part1(_parsed);
+
+            var _answer1 = _solution.solve_part1(_solution.parse_input(_solution.input, 0));
             results.part1_answer = string(_answer1);
         
-            var _answer2 = _solution.solve_part2(_parsed);
+            var _answer2 = _solution.solve_part2(_solution.parse_input(_solution.input, 1));
             results.part2_answer = string(_answer2);
 
             running_frame_counter = 0;
